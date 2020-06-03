@@ -20,7 +20,7 @@ header {
   text-align: justify; }
   .section-a {
     background-color: skyblue;
-    color: #fff; }
+    color: #000; }
   .section-b {
     background-color: steelblue;
     color: #fff; }
@@ -31,13 +31,15 @@ header {
   padding: 0.5rem 1rem;
   text-decoration: none;
   margin-top: 0.2rem;
-  transition: all 1s ease; }
+  transition: all 1s ease;
+  cursor: pointer; }
   .btn-light:hover, .btn-dark:hover {
-    opacity: 0.6; }
+    opacity: 0.6;
+    transform: rotate(20deg); }
 
 .btn-light {
   background-color: #f4f4f4;
-  color: #333; }
+  color: #000; }
 
 .btn-dark {
   background-color: #333;
