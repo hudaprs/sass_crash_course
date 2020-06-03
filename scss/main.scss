@@ -12,3 +12,39 @@ body {
   color: $dark-color;
   line-height: 1.5;
 }
+
+header {
+  padding: 1rem;
+  background-color: $dark-color;
+  color: #fff;
+  text-align: center;
+}
+
+.section {
+  padding: 2rem;
+
+  &-a {
+    background-color: $primary-color;
+    color: #fff;
+  }
+
+  &-b {
+    background-color: $secondary-color;
+    color: #fff;
+  }
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  background-color: $dark-color;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  margin-top: 0.2rem;
+  transition: all 1s ease;
+
+  &:hover {
+    opacity: 0.6;
+  }
+}
